@@ -4,14 +4,14 @@ import "./App.css";
 
 function App() {
   return (
-    <MapContainer center={[51.505, -5.09]} zoom={12} scrollWheelZoom={true}>
+    <MapContainer center={[15.505, -15.09]} zoom={12} scrollWheelZoom={true}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[51.505, -0.09]}>
+      <Marker position={[15.505, -15.09]}>
         <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
+          Branch AWS <br /> Easily customizable.
         </Popup>
       </Marker>
     </MapContainer>
